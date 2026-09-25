@@ -6,9 +6,9 @@
 
 - Họ và tên: Phạm Văn Kiên
 - Mã học viên: 2A202602590
-- Nhóm:
-- Repository/branch:
-- Commit liên quan:
+- Nhóm: ozon
+- Repository/branch:https://github.com/ThanhBinh159/K4-L3B-RAG-Pipeline/tree/pkien
+
 
 ## Phạm vi công việc: Task 1, Task 2, Task 3
 
