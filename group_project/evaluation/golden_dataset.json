@@ -1,0 +1,17 @@
+[
+  {"question":"Hồ sơ đăng ký thành lập hộ kinh doanh gồm những gì?","expected_answer":"Hồ sơ gồm giấy đề nghị đăng ký hộ kinh doanh và bản sao văn bản ủy quyền của thành viên hộ gia đình trong trường hợp áp dụng.","expected_context":"dang_ky_ho_kinh_doanh.json"},
+  {"question":"Cơ quan nào tiếp nhận hồ sơ đăng ký hộ kinh doanh?","expected_answer":"Cơ quan đăng ký kinh doanh cấp xã nơi hộ kinh doanh đăng ký trụ sở tiếp nhận hồ sơ.","expected_context":"dang_ky_ho_kinh_doanh.json"},
+  {"question":"Thời hạn cấp giấy chứng nhận đăng ký hộ kinh doanh là bao lâu?","expected_answer":"Nếu hồ sơ đủ điều kiện, giấy chứng nhận được cấp trong thời hạn 03 ngày làm việc kể từ ngày nhận hồ sơ.","expected_context":"dang_ky_ho_kinh_doanh.json"},
+  {"question":"Khi nào cơ quan đăng ký kinh doanh từ chối cấp đăng ký hộ kinh doanh?","expected_answer":"Có thể từ chối khi hộ kinh doanh thuộc trường hợp vi phạm hoặc thu hồi giấy chứng nhận, hoặc đang không hoạt động tại địa chỉ đã đăng ký.","expected_context":"dang_ky_ho_kinh_doanh.json"},
+  {"question":"Có bao nhiêu biểu mẫu đăng ký hộ kinh doanh được liệt kê?","expected_answer":"Tài liệu liệt kê 28 biểu mẫu sử dụng trong đăng ký hộ kinh doanh.","expected_context":"bieu_mau_dang_ky_2026.json"},
+  {"question":"Mẫu số 1 dùng để làm gì?","expected_answer":"Mẫu số 1 là giấy đề nghị đăng ký hộ kinh doanh.","expected_context":"bieu_mau_dang_ky_2026.json"},
+  {"question":"Hộ kinh doanh có thể đăng ký tạm ngừng hoạt động bằng biểu mẫu nào?","expected_answer":"Có biểu mẫu thông báo đăng ký tạm ngừng kinh doanh hoặc tiếp tục kinh doanh trước thời hạn đã đăng ký.","expected_context":"bieu_mau_dang_ky_2026.json"},
+  {"question":"Ai phải kê khai và nộp thuế theo phương pháp kê khai?","expected_answer":"Câu trả lời phải được xác minh từ tài liệu hướng dẫn kê khai thuế của hộ kinh doanh trong corpus.","expected_context":"tu_khai_tu_nop_thue.json"},
+  {"question":"Hộ kinh doanh cần lưu ý gì khi tự khai, tự nộp thuế?","expected_answer":"Cần căn cứ hướng dẫn trong tài liệu tự khai tự nộp thuế và kê khai đúng thông tin, doanh thu, nghĩa vụ phát sinh.","expected_context":"tu_khai_tu_nop_thue.json"},
+  {"question":"Nội dung chính của tài liệu về kế toán hộ kinh doanh là gì?","expected_answer":"Tài liệu trình bày các yêu cầu và hướng dẫn liên quan đến kế toán hộ kinh doanh.","expected_context":"ke_toan_ho_kinh_doanh.json"},
+  {"question":"Tài liệu về doanh thu dưới 500 triệu đồng đề cập vấn đề nào?","expected_answer":"Tài liệu đề cập chính sách và nghĩa vụ liên quan đến hộ kinh doanh có doanh thu dưới 500 triệu đồng.","expected_context":"thue_doanh_thu_duoi_500_trieu.json"},
+  {"question":"Hóa đơn giảm thuế GTGT được đề cập trong tài liệu nào?","expected_answer":"Nội dung về hóa đơn giảm thuế giá trị gia tăng nằm trong tài liệu hóa đơn giảm thuế GTGT.","expected_context":"hoa_don_giam_thue_gtgt.json"},
+  {"question":"Luật an toàn thực phẩm năm 2010 thuộc nhóm tài liệu nào?","expected_answer":"Đây là tài liệu legal được lưu trong corpus pháp luật.","expected_context":"an_toan_thuc_pham_55_2010.pdf"},
+  {"question":"Tài liệu nào nói về hỗ trợ doanh nghiệp nhỏ và vừa?","expected_answer":"Tài liệu có tên hỗ trợ doanh nghiệp nhỏ và vừa năm 2017.","expected_context":"ho_tro_doanh_nghiep_nho_va_vua_04_2017.pdf"},
+  {"question":"Tài liệu nào liên quan đến thuế giá trị gia tăng?","expected_answer":"Tài liệu thuế giá trị gia tăng năm 2024 là nguồn legal liên quan.","expected_context":"thue_gia_tri_gia_tang_48_2024.pdf"}
+]

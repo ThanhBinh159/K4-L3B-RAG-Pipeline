@@ -24,8 +24,8 @@ TOP_K = 5
 TOP_P = 0.9
 TEMPERATURE = 0.3
 
-LLM_PROVIDER = os.getenv("LLM_PROVIDER", "openrouter").lower()
-LLM_MODEL = os.getenv("LLM_MODEL", "nvidia/nemotron-3-ultra-550b-a55b:free")
+LLM_PROVIDER = os.getenv("LLM_PROVIDER", "deepseek").lower()
+LLM_MODEL = os.getenv("LLM_MODEL", "deepseek-v4-flash")
 
 SYSTEM_PROMPT = """Trả lời chỉ từ context được cung cấp.
 Mỗi khẳng định phải có citation. Nếu thiếu evidence, hãy từ chối xác minh."""
@@ -51,7 +51,7 @@ def format_context(chunks: list[dict]) -> str:
 
 
 def call_llm(system_prompt: str, user_message: str) -> str:
-    """Gọi OpenAI, Gemini hoặc Anthropic theo cấu hình."""
+    """Gọi provider LLM theo cấu hình."""
     provider = LLM_PROVIDER.lower()
     if provider == "openrouter":
         import requests
@@ -60,6 +60,27 @@ def call_llm(system_prompt: str, user_message: str) -> str:
             raise RuntimeError("OPENROUTER_API_KEY is not configured")
         response = requests.post(
             "https://openrouter.ai/api/v1/chat/completions",
+            headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
+            json={
+                "model": LLM_MODEL,
+                "messages": [
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": user_message},
+                ],
+                "temperature": TEMPERATURE,
+                "top_p": TOP_P,
+            },
+            timeout=120,
+        )
+        response.raise_for_status()
+        return response.json()["choices"][0]["message"].get("content", "")
+    if provider == "deepseek":
+        import requests
+        key = os.getenv("DEEPSEEK_API_KEY", "")
+        if not key:
+            raise RuntimeError("DEEPSEEK_API_KEY is not configured")
+        response = requests.post(
+            "https://api.deepseek.com/chat/completions",
             headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
             json={
                 "model": LLM_MODEL,

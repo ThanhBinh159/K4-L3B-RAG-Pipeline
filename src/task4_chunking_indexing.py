@@ -34,7 +34,7 @@ CHUNK_OVERLAP = 50
 CHUNKING_METHOD = "recursive"
 
 EMBEDDING_PROVIDER = os.getenv("EMBEDDING_PROVIDER", "hash").lower()
-EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "nvidia/nemotron-3-embed-1b:free")
+EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "local-hash-1024")
 EMBEDDING_DIM = 1024
 OPENROUTER_EMBEDDINGS_URL = "https://openrouter.ai/api/v1/embeddings"
 
