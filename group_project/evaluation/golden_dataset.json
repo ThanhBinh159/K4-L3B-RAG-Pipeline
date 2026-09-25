@@ -1,0 +1,286 @@
+{
+  "metadata": {
+    "name": "HKD & Thuế - Golden Dataset",
+    "version": "1.0",
+    "created": "2026-09-25",
+    "domain": "Hộ kinh doanh, thuế GTGT, thuế TNCN, quản lý thuế, an toàn thực phẩm, hỗ trợ DNNVV",
+    "total_questions": 30,
+    "notes": "Câu hỏi được thiết kế dựa trên nội dung thật của các văn bản đã chuẩn hóa. 'relevant_docs' liệt kê các file Markdown chứa câu trả lời. 'expected_keywords' dùng để đánh giá semantic/lexical match."
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "question": "Hộ kinh doanh có doanh thu năm từ bao nhiêu trở xuống thì không phải nộp thuế GTGT và thuế TNCN?",
+      "ground_truth_answer": "Hộ kinh doanh có doanh thu năm từ 500 triệu đồng trở xuống không phải nộp thuế GTGT và thuế TNCN (theo Luật Thuế GTGT 48/2024 và Luật Thuế TNCN 109/2025).",
+      "relevant_docs": [
+        "hkd_thue_gia_tri_gia_tang_48_2024.md",
+        "hkd_thue_thu_nhap_ca_nhan_109_2025.md",
+        "thue_doanh_thu_duoi_500_trieu.md"
+      ],
+      "expected_keywords": ["500 triệu", "không phải nộp", "doanh thu năm"],
+      "difficulty": "easy",
+      "type": "factual"
+    },
+    {
+      "id": "q002",
+      "question": "Cá nhân kinh doanh có doanh thu trên 500 triệu đồng đến 3 tỷ đồng phải nộp thuế TNCN theo thuế suất bao nhiêu?",
+      "ground_truth_answer": "Cá nhân kinh doanh có doanh thu năm trên 500 triệu đồng đến 3 tỷ đồng: thuế suất 15% (nếu tính trên thu nhập tính thuế), hoặc có thể lựa chọn nộp theo tỷ lệ % trên doanh thu (ví dụ phân phối hàng hóa 0,5%).",
+      "relevant_docs": ["hkd_thue_thu_nhap_ca_nhan_109_2025.md"],
+      "expected_keywords": ["15%", "3 tỷ", "thuế suất"],
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "id": "q003",
+      "question": "Hộ kinh doanh mới ra kinh doanh trong 6 tháng đầu năm phải thông báo doanh thu mấy lần và vào thời hạn nào?",
+      "ground_truth_answer": "Ra kinh doanh trong 6 tháng đầu năm: thông báo 02 lần/năm. Lần 1: doanh thu đến hết 30/6, chậm nhất 31/7. Lần 2: doanh thu 6 tháng cuối năm, chậm nhất 31/01 năm tiếp theo.",
+      "relevant_docs": ["thue_doanh_thu_duoi_500_trieu.md"],
+      "expected_keywords": ["02 lần", "31/7", "31/01", "6 tháng đầu năm"],
+      "difficulty": "medium",
+      "type": "procedural"
+    },
+    {
+      "id": "q004",
+      "question": "Hồ sơ đăng ký thành lập hộ kinh doanh bao gồm những giấy tờ gì?",
+      "ground_truth_answer": "Hồ sơ gồm: (1) Giấy đề nghị đăng ký hộ kinh doanh; (2) Bản sao văn bản ủy quyền của thành viên hộ gia đình cho một thành viên làm chủ hộ kinh doanh (nếu hộ kinh doanh do các thành viên hộ gia đình đăng ký thành lập), có công chứng hoặc chứng thực.",
+      "relevant_docs": ["dang_ky_ho_kinh_doanh.md"],
+      "expected_keywords": ["Giấy đề nghị", "văn bản ủy quyền", "hộ gia đình"],
+      "difficulty": "easy",
+      "type": "factual"
+    },
+    {
+      "id": "q005",
+      "question": "Cơ quan đăng ký kinh doanh cấp xã phải cấp Giấy chứng nhận đăng ký hộ kinh doanh trong thời hạn bao lâu?",
+      "ground_truth_answer": "Trong thời hạn 03 ngày làm việc kể từ ngày nhận hồ sơ (nếu hồ sơ đủ điều kiện). Nếu không đủ điều kiện, phải thông báo bằng văn bản trong 03 ngày làm việc, nêu rõ lý do và yêu cầu sửa đổi, bổ sung.",
+      "relevant_docs": ["dang_ky_ho_kinh_doanh.md"],
+      "expected_keywords": ["03 ngày làm việc", "Giấy chứng nhận"],
+      "difficulty": "easy",
+      "type": "factual"
+    },
+    {
+      "id": "q006",
+      "question": "Hộ kinh doanh có doanh thu trên 500 triệu đồng/năm thì phải thực hiện khai thuế, nộp thuế từ thời điểm nào?",
+      "ground_truth_answer": "Trường hợp phát sinh doanh thu thực tế trên 500 triệu đồng trong năm thì thực hiện khai thuế, nộp thuế kể từ quý phát sinh doanh thu trên 500 triệu đồng.",
+      "relevant_docs": ["thue_doanh_thu_duoi_500_trieu.md", "hkd_thue_gia_tri_gia_tang_48_2024.md"],
+      "expected_keywords": ["quý phát sinh", "trên 500 triệu"],
+      "difficulty": "medium",
+      "type": "procedural"
+    },
+    {
+      "id": "q007",
+      "question": "Hộ kinh doanh được giảm bao nhiêu % mức tỷ lệ % để tính thuế GTGT theo Nghị quyết 204/2025/QH15?",
+      "ground_truth_answer": "Hộ kinh doanh được giảm 20% mức tỷ lệ % để tính thuế GTGT, áp dụng từ 01/7/2025 đến hết 31/12/2026.",
+      "relevant_docs": ["hoa_don_giam_thue_gtgt.md"],
+      "expected_keywords": ["20%", "Nghị quyết 204/2025", "01/7/2025", "31/12/2026"],
+      "difficulty": "easy",
+      "type": "factual"
+    },
+    {
+      "id": "q008",
+      "question": "Những hàng hóa, dịch vụ nào KHÔNG được giảm thuế GTGT theo Nghị quyết 204/2025/QH15?",
+      "ground_truth_answer": "Các nhóm không được giảm: viễn thông, tài chính, ngân hàng, chứng khoán, bảo hiểm, kinh doanh bất động sản, sản phẩm kim loại, sản phẩm khai khoáng (trừ than); hàng hóa, dịch vụ chịu thuế tiêu thụ đặc biệt (trừ xăng).",
+      "relevant_docs": ["hoa_don_giam_thue_gtgt.md"],
+      "expected_keywords": ["viễn thông", "tài chính", "bất động sản", "tiêu thụ đặc biệt"],
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "id": "q009",
+      "question": "Khi lập hóa đơn cho hàng hóa được giảm thuế GTGT, hộ kinh doanh phải ghi chú gì trên hóa đơn?",
+      "ground_truth_answer": "Trên hóa đơn phải ghi rõ nội dung giảm thuế: tại cột 'Thành tiền' ghi đầy đủ tiền hàng trước khi giảm; tại dòng 'Cộng tiền hàng hóa, dịch vụ' ghi theo số đã giảm 20% mức tỷ lệ %; ghi chú: 'đã giảm... (số tiền) tương ứng 20% mức tỷ lệ % để tính thuế giá trị gia tăng theo Nghị quyết số 204/2025/QH15'.",
+      "relevant_docs": ["hoa_don_giam_thue_gtgt.md"],
+      "expected_keywords": ["ghi chú", "đã giảm", "20%", "Nghị quyết 204/2025"],
+      "difficulty": "hard",
+      "type": "procedural"
+    },
+    {
+      "id": "q010",
+      "question": "Theo Luật Quản lý thuế 108/2025, hộ kinh doanh có hoạt động trên nền tảng thương mại điện tử có chức năng thanh toán thì ai chịu trách nhiệm khấu trừ và nộp thuế thay?",
+      "ground_truth_answer": "Chủ quản nền tảng thương mại điện tử (trong nước hoặc nước ngoài) có trách nhiệm khấu trừ, khai thay và nộp thay số thuế đã khấu trừ của hộ kinh doanh, cá nhân kinh doanh.",
+      "relevant_docs": ["hkd_quan_ly_thue_108_2025.md", "quan_ly_thue_108_2025.md"],
+      "expected_keywords": ["chủ quản nền tảng", "khấu trừ", "nộp thay", "thương mại điện tử"],
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "id": "q011",
+      "question": "Hộ kinh doanh chấm dứt hoạt động nhưng chưa hoàn thành nghĩa vụ nộp thuế thì ai phải chịu trách nhiệm?",
+      "ground_truth_answer": "Phần tiền thuế nợ còn lại do chủ hộ kinh doanh, cá nhân chịu trách nhiệm hoàn thành nghĩa vụ nộp thuế (theo Điều 17 Luật Quản lý thuế 108/2025).",
+      "relevant_docs": ["hkd_quan_ly_thue_108_2025.md", "quan_ly_thue_108_2025.md"],
+      "expected_keywords": ["chủ hộ kinh doanh", "tiền thuế nợ", "chịu trách nhiệm"],
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "id": "q012",
+      "question": "Cá nhân kinh doanh được miễn thuế TNCN trong thời hạn 5 năm trong trường hợp nào?",
+      "ground_truth_answer": "Miễn thuế TNCN 5 năm đối với thu nhập từ tiền lương, tiền công của cá nhân là nhân lực công nghiệp công nghệ số chất lượng cao (dự án trong khu công nghệ số, nghiên cứu phát triển sản phẩm công nghệ số trọng điểm, chip bán dẫn, AI) và nhân lực công nghệ cao thực hiện hoạt động R&D công nghệ cao/chiến lược.",
+      "relevant_docs": ["hkd_thue_thu_nhap_ca_nhan_109_2025.md", "thue_thu_nhap_ca_nhan_109_2025.md"],
+      "expected_keywords": ["5 năm", "công nghệ số", "chip bán dẫn", "AI"],
+      "difficulty": "hard",
+      "type": "factual"
+    },
+    {
+      "id": "q013",
+      "question": "Mức giảm trừ gia cảnh đối với người nộp thuế và mỗi người phụ thuộc theo Luật Thuế TNCN 109/2025 là bao nhiêu?",
+      "ground_truth_answer": "Mức giảm trừ đối với người nộp thuế là 15,5 triệu đồng/tháng (186 triệu đồng/năm); mức giảm trừ đối với mỗi người phụ thuộc là 6,2 triệu đồng/tháng.",
+      "relevant_docs": ["hkd_thue_thu_nhap_ca_nhan_109_2025.md", "thue_thu_nhap_ca_nhan_109_2025.md"],
+      "expected_keywords": ["15,5 triệu", "6,2 triệu", "giảm trừ gia cảnh"],
+      "difficulty": "easy",
+      "type": "factual"
+    },
+    {
+      "id": "q014",
+      "question": "Biểu thuế lũy tiến từng phần đối với thu nhập từ tiền lương, tiền công có bao nhiêu bậc và mức cao nhất là bao nhiêu %?",
+      "ground_truth_answer": "Biểu thuế có 5 bậc: bậc 1 đến 120 triệu/năm (5%), bậc 2 trên 120-360 triệu (10%), bậc 3 trên 360-720 triệu (20%), bậc 4 trên 720-1.200 triệu (30%), bậc 5 trên 1.200 triệu (35%).",
+      "relevant_docs": ["hkd_thue_thu_nhap_ca_nhan_109_2025.md", "thue_thu_nhap_ca_nhan_109_2025.md"],
+      "expected_keywords": ["5 bậc", "35%", "lũy tiến"],
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "id": "q015",
+      "question": "Hộ kinh doanh cần sử dụng sổ kế toán nào theo Thông tư 152/2025/TT-BTC?",
+      "ground_truth_answer": "Thông tư 152/2025/TT-BTC hướng dẫn kế toán cho 3 nhóm: (1) hộ không chịu thuế GTGT, không nộp TNCN; (2) hộ chịu thuế GTGT, nộp TNCN; (3) hộ có hoạt động chịu các loại thuế khác. Hộ dưới 500 triệu sử dụng Sổ doanh thu bán hàng hóa, dịch vụ (mẫu S1a-HKD).",
+      "relevant_docs": ["ke_toan_ho_kinh_doanh.md", "thue_doanh_thu_duoi_500_trieu.md"],
+      "expected_keywords": ["Thông tư 152/2025", "S1a-HKD", "sổ kế toán"],
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "id": "q016",
+      "question": "Theo Luật An toàn thực phẩm 55/2010, cơ sở sản xuất, kinh doanh thực phẩm phải đảm bảo những điều kiện gì?",
+      "ground_truth_answer": "Phải đảm bảo: (a) địa điểm, diện tích thích hợp, khoảng cách an toàn với nguồn gây độc hại; (b) đủ nước đạt quy chuẩn; (c) đủ trang thiết bị phù hợp; (d) có hệ thống xử lý chất thải; (đ) duy trì điều kiện an toàn và lưu giữ hồ sơ; (e) tuân thủ quy định về sức khỏe, kiến thức, thực hành của người trực tiếp sản xuất, kinh doanh.",
+      "relevant_docs": ["hkd_an_toan_thuc_pham_55_2010.md", "an_toan_thuc_pham_55_2010.md"],
+      "expected_keywords": ["địa điểm", "nguồn nước", "trang thiết bị", "chất thải"],
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "id": "q017",
+      "question": "Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm có hiệu lực bao nhiêu năm và phải nộp hồ sơ cấp lại trước bao lâu?",
+      "ground_truth_answer": "Giấy chứng nhận có hiệu lực 03 năm. Trước 06 tháng tính đến ngày hết hạn, tổ chức, cá nhân phải nộp hồ sơ xin cấp lại nếu tiếp tục sản xuất, kinh doanh.",
+      "relevant_docs": ["hkd_an_toan_thuc_pham_55_2010.md", "an_toan_thuc_pham_55_2010.md"],
+      "expected_keywords": ["03 năm", "06 tháng", "cấp lại"],
+      "difficulty": "easy",
+      "type": "factual"
+    },
+    {
+      "id": "q018",
+      "question": "Hồ sơ xin cấp Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm gồm những gì?",
+      "ground_truth_answer": "Gồm: (a) Đơn đề nghị cấp Giấy chứng nhận; (b) Bản sao Giấy chứng nhận đăng ký kinh doanh; (c) Bản thuyết minh về cơ sở vật chất, trang thiết bị, dụng cụ; (d) Giấy xác nhận đủ sức khỏe của chủ cơ sở và người trực tiếp sản xuất, kinh doanh; (đ) Giấy xác nhận đã được tập huấn kiến thức về an toàn vệ sinh thực phẩm.",
+      "relevant_docs": ["hkd_an_toan_thuc_pham_55_2010.md", "an_toan_thuc_pham_55_2010.md"],
+      "expected_keywords": ["đơn đề nghị", "bản sao", "giấy xác nhận sức khỏe", "tập huấn"],
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "id": "q019",
+      "question": "Doanh nghiệp nhỏ và vừa được xác định theo tiêu chí nào?",
+      "ground_truth_answer": "Doanh nghiệp nhỏ và vừa có số lao động tham gia BHXH bình quân năm không quá 200 người và đáp ứng một trong hai tiêu chí: tổng nguồn vốn không quá 100 tỷ đồng, hoặc tổng doanh thu năm trước liền kề không quá 300 tỷ đồng.",
+      "relevant_docs": ["hkd_ho_tro_doanh_nghiep_nho_va_vua_04_2017.md", "ho_tro_doanh_nghiep_nho_va_vua_04_2017.md"],
+      "expected_keywords": ["200 người", "100 tỷ", "300 tỷ", "doanh nghiệp nhỏ và vừa"],
+      "difficulty": "easy",
+      "type": "factual"
+    },
+    {
+      "id": "q020",
+      "question": "Doanh nghiệp nhỏ và vừa chuyển đổi từ hộ kinh doanh được hỗ trợ những gì?",
+      "ground_truth_answer": "Được hỗ trợ: (a) tư vấn, hướng dẫn miễn phí về hồ sơ, thủ tục thành lập; (b) miễn lệ phí đăng ký doanh nghiệp, phí cung cấp thông tin lần đầu, miễn lệ phí môn bài 3 năm; (c) tư vấn miễn phí về thủ tục hành chính thuế, kế toán trong 3 năm; (d) miễn, giảm thuế TNDN có thời hạn; (đ) miễn, giảm tiền sử dụng đất có thời hạn.",
+      "relevant_docs": ["hkd_ho_tro_doanh_nghiep_nho_va_vua_04_2017.md", "ho_tro_doanh_nghiep_nho_va_vua_04_2017.md"],
+      "expected_keywords": ["chuyển đổi", "miễn phí", "3 năm", "lệ phí môn bài"],
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "id": "q021",
+      "question": "Hộ kinh doanh nộp thuế theo phương pháp khoán từ năm 2025 trở về trước có bị xử phạt khi chuyển sang kê khai từ 01/01/2026 không?",
+      "ground_truth_answer": "Không. Cơ quan thuế không sử dụng doanh thu khai thuế năm 2026 để xác định lại nghĩa vụ thuế các năm trước, không xử phạt vi phạm hành chính đối với nghĩa vụ thuế đã thực hiện theo phương pháp khoán, trừ trường hợp phát hiện che giấu doanh thu dẫn đến thiếu số thuế phải nộp.",
+      "relevant_docs": ["tu_khai_tu_nop_thue.md"],
+      "expected_keywords": ["không xử phạt", "phương pháp khoán", "01/01/2026"],
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "id": "q022",
+      "question": "Trường hợp khai thuế theo tháng, hồ sơ khai thuế tháng 1, 2, 3 năm 2026 phải nộp chậm nhất là ngày nào?",
+      "ground_truth_answer": "Chậm nhất là ngày 20 tháng 4 năm 2026.",
+      "relevant_docs": ["tu_khai_tu_nop_thue.md"],
+      "expected_keywords": ["20 tháng 4 năm 2026", "khai thuế theo tháng"],
+      "difficulty": "easy",
+      "type": "factual"
+    },
+    {
+      "id": "q023",
+      "question": "Thuế GTGT đối với hàng hóa, dịch vụ xuất khẩu được áp dụng mức thuế suất nào?",
+      "ground_truth_answer": "Mức thuế suất 0% áp dụng đối với hàng hóa, dịch vụ xuất khẩu, bao gồm hàng hóa từ Việt Nam bán cho tổ chức, cá nhân ở nước ngoài; hàng hóa bán cho khu phi thuế quan; hàng hóa gia công chuyển tiếp để xuất khẩu... Một số trường hợp không áp dụng 0% (chuyển giao công nghệ, dịch vụ tái bảo hiểm, dịch vụ cấp tín dụng, chuyển nhượng vốn, sản phẩm phái sinh...).",
+      "relevant_docs": ["hkd_thue_gia_tri_gia_tang_48_2024.md", "thue_gia_tri_gia_tang_48_2024.md"],
+      "expected_keywords": ["0%", "xuất khẩu", "khu phi thuế quan"],
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "id": "q024",
+      "question": "Hộ kinh doanh có doanh thu năm từ 200 triệu đồng trở xuống có thuộc đối tượng không chịu thuế GTGT không?",
+      "ground_truth_answer": "Theo Luật Thuế GTGT 48/2024 (khoản 25 Điều 5), hàng hóa, dịch vụ của hộ, cá nhân sản xuất, kinh doanh có mức doanh thu hằng năm từ 200 triệu đồng trở xuống thuộc đối tượng không chịu thuế GTGT. Quy định này có hiệu lực từ 01/01/2026.",
+      "relevant_docs": ["hkd_thue_gia_tri_gia_tang_48_2024.md", "thue_gia_tri_gia_tang_48_2024.md"],
+      "expected_keywords": ["200 triệu", "không chịu thuế", "01/01/2026"],
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "id": "q025",
+      "question": "Hộ kinh doanh có được lập bảng kê mua hàng khi mua từ cá nhân kinh doanh có doanh thu dưới 500 triệu/năm không có hóa đơn không?",
+      "ground_truth_answer": "Có. Hộ kinh doanh mua hàng từ cá nhân kinh doanh có doanh thu dưới 500 triệu/năm, không có hóa đơn thì được phép lập bảng kê mua hàng theo quy định.",
+      "relevant_docs": ["thue_doanh_thu_duoi_500_trieu.md"],
+      "expected_keywords": ["bảng kê mua hàng", "dưới 500 triệu", "không hóa đơn"],
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "id": "q026",
+      "question": "Thông tư 152/2025/TT-BTC hướng dẫn kế toán cho mấy nhóm đối tượng hộ kinh doanh?",
+      "ground_truth_answer": "Thông tư hướng dẫn kế toán với 3 nhóm đối tượng: (1) hộ không chịu thuế GTGT, không phải nộp thuế TNCN; (2) hộ chịu thuế GTGT, phải nộp thuế TNCN; (3) hộ có hoạt động thuộc diện chịu các loại thuế khác.",
+      "relevant_docs": ["ke_toan_ho_kinh_doanh.md"],
+      "expected_keywords": ["3 nhóm", "Thông tư 152/2025", "kế toán"],
+      "difficulty": "easy",
+      "type": "factual"
+    },
+    {
+      "id": "q027",
+      "question": "Theo Luật Quản lý thuế 108/2025, người nộp thuế có quyền từ chối việc kiểm tra tại trụ sở trong trường hợp nào?",
+      "ground_truth_answer": "Người nộp thuế có quyền từ chối kiểm tra tại trụ sở người nộp thuế khi không có quyết định kiểm tra tại trụ sở của cơ quan có thẩm quyền; từ chối kiểm tra tại trụ sở cơ quan quản lý thuế khi không có thông báo yêu cầu giải trình, bổ sung thông tin, tài liệu; từ chối cung cấp thông tin, tài liệu không liên quan đến nội dung kiểm tra hoặc thuộc bí mật nhà nước.",
+      "relevant_docs": ["hkd_quan_ly_thue_108_2025.md", "quan_ly_thue_108_2025.md"],
+      "expected_keywords": ["từ chối", "quyết định kiểm tra", "bí mật nhà nước"],
+      "difficulty": "hard",
+      "type": "factual"
+    },
+    {
+      "id": "q028",
+      "question": "Theo Luật An toàn thực phẩm 55/2010, hành vi nào bị cấm trong sản xuất, kinh doanh thực phẩm?",
+      "ground_truth_answer": "Các hành vi bị cấm gồm: sử dụng nguyên liệu không thuộc loại dùng cho thực phẩm; nguyên liệu quá hạn, không rõ nguồn gốc; phụ gia ngoài danh mục hoặc vượt giới hạn; động vật chết do bệnh; sản xuất thực phẩm vi phạm nhãn, không phù hợp quy chuẩn, biến chất, chứa chất độc hại; thực phẩm không rõ nguồn gốc, quá hạn; quảng cáo sai sự thật; sử dụng trái phép lòng đường, vỉa hè để kinh doanh thức ăn đường phố...",
+      "relevant_docs": ["hkd_an_toan_thuc_pham_55_2010.md", "an_toan_thuc_pham_55_2010.md"],
+      "expected_keywords": ["hành vi bị cấm", "nguyên liệu", "quá hạn", "quảng cáo sai sự thật"],
+      "difficulty": "medium",
+      "type": "factual"
+    },
+    {
+      "id": "q029",
+      "question": "Hộ kinh doanh có doanh thu năm trên 50 tỷ đồng phải nộp thuế TNCN theo thuế suất bao nhiêu?",
+      "ground_truth_answer": "Cá nhân kinh doanh có doanh thu năm trên 50 tỷ đồng: thuế suất 20% (theo Luật Thuế TNCN 109/2025).",
+      "relevant_docs": ["hkd_thue_thu_nhap_ca_nhan_109_2025.md", "thue_thu_nhap_ca_nhan_109_2025.md"],
+      "expected_keywords": ["20%", "50 tỷ", "thuế suất"],
+      "difficulty": "easy",
+      "type": "factual"
+    },
+    {
+      "id": "q030",
+      "question": "Doanh nghiệp nhỏ và vừa khởi nghiệp sáng tạo được hỗ trợ nếu đáp ứng điều kiện gì?",
+      "ground_truth_answer": "Điều kiện: (a) có thời gian hoạt động không quá 05 năm kể từ ngày được cấp Giấy chứng nhận đăng ký doanh nghiệp lần đầu; (b) chưa thực hiện chào bán chứng khoán ra công chúng đối với công ty cổ phần.",
+      "relevant_docs": ["hkd_ho_tro_doanh_nghiep_nho_va_vua_04_2017.md", "ho_tro_doanh_nghiep_nho_va_vua_04_2017.md"],
+      "expected_keywords": ["05 năm", "khởi nghiệp sáng tạo", "chào bán chứng khoán"],
+      "difficulty": "easy",
+      "type": "factual"
+    }
+  ]
+}
