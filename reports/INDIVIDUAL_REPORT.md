@@ -1,9 +1,9 @@
 # Individual contribution report
 
-Template chung để tham khảo. Ba bản theo thành viên nằm trong `reports/individual/`. Nếu cần tạo lại, copy template này thành:
+Mỗi thành viên copy template này thành:
 
 ```text
-reports/individual/MEMBER_<n>.md
+reports/<student-id>-<short-name>.md
 ```
 
 Giới hạn khuyến nghị: 1 trang, không chép lại README hoặc mô tả lý thuyết chung. Báo cáo không phải một bài pipeline cá nhân; mục đích là ghi nhận ownership và bằng chứng đóng góp trong sản phẩm nhóm.
