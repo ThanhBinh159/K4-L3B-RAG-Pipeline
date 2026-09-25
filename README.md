@@ -26,7 +26,7 @@ Nhóm tự chọn bài toán và thu thập dữ liệu phù hợp; repo không 
 - Chatbot Streamlit hiển thị câu trả lời và nguồn đã dùng.
 - Golden dataset tối thiểu 15 câu; đánh giá 4 metric và so sánh A/B.
 - `group_project/evaluation/RESULT.md`.
-- Mỗi thành viên điền phần riêng trong [báo cáo đóng góp cá nhân](reports/INDIVIDUAL_REPORT.md); tên và mã học viên có thể được thêm sau.
+- [Báo cáo đóng góp cá nhân](reports/INDIVIDUAL_REPORT.md) hiện là một báo cáo mẫu cho một thành viên; cập nhật nội dung để khớp đóng góp thực tế rồi điền tên và mã học viên.
 
 ## Quick start
 
@@ -114,7 +114,7 @@ Lệnh ghi checkpoint từng câu vào `group_project/evaluation/online_results.
 - [Module contracts](docs/MODULE_CONTRACTS.md): schema, interface và invariant mà code/test nên tuân theo.
 - [Step-by-step guide](docs/STEP_BY_STEP.md): thứ tự triển khai và tiêu chí hoàn thành từng bước.
 - [Grading rubric](docs/GRADING_RUBRIC.md): Rubric thang điểm.
-- [Individual report](reports/INDIVIDUAL_REPORT.md): báo cáo chia thành ba phần công việc, một phần cho mỗi thành viên.
+- [Individual report](reports/INDIVIDUAL_REPORT.md): báo cáo mẫu cho một thành viên, gồm kiểm thử, xử lý dữ liệu, quyết định kỹ thuật và hạn chế.
 - [Suggested topics](docs/SUGGESTED_TOPICS.md): danh sách chủ đề tham khảo, không bắt buộc.
 
 ## Kiểm tra
