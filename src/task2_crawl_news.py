@@ -15,37 +15,58 @@ Cài browser trước khi chạy:
 
 import asyncio
 import json
+import os
+import re
+from datetime import datetime
 from pathlib import Path
+
+import requests
 
 
 DATA_DIR = Path(__file__).parent.parent / "data" / "landing" / "news"
 
-ARTICLE_URLS = [
-    # TODO: Thêm ít nhất 5 public URL.
-]
+ARTICLE_URLS = [url.strip() for url in os.getenv("ARTICLE_URLS", "").split(",") if url.strip()]
 
 
 async def crawl_article(url: str) -> dict:
-    # TODO: Implement crawling logic.
-    #
-    # from datetime import datetime
-    # from crawl4ai import AsyncWebCrawler
-    #
-    # async with AsyncWebCrawler() as crawler:
-    #     result = await crawler.arun(url=url)
-    #     return {
-    #         "url": url,
-    #         "title": result.metadata.get("title", "Unknown"),
-    #         "date_crawled": datetime.now().isoformat(),
-    #         "content_markdown": result.markdown,
-    #     }
-    raise NotImplementedError("Implement crawl_article")
+    try:
+        from crawl4ai import AsyncWebCrawler
+        async with AsyncWebCrawler() as crawler:
+            result = await crawler.arun(url=url)
+            metadata = result.metadata or {}
+            content = result.markdown or result.cleaned_html or ""
+            title = metadata.get("title") or url
+    except Exception:
+        response = await asyncio.to_thread(
+            requests.get,
+            url,
+            headers={"User-Agent": "K4-L3B-RAG-Pipeline/1.0"},
+            timeout=30,
+        )
+        response.raise_for_status()
+        html = response.text
+        title_match = re.search(r"<title[^>]*>(.*?)</title>", html, re.I | re.S)
+        title = re.sub(r"\s+", " ", title_match.group(1)).strip() if title_match else url
+        content = re.sub(r"<script.*?</script>|<style.*?</style>", " ", html, flags=re.I | re.S)
+        content = re.sub(r"<[^>]+>", " ", content)
+        content = re.sub(r"\s+", " ", content).strip()
+
+    if not content.strip():
+        raise ValueError("crawler returned empty content")
+    return {
+        "url": url,
+        "title": title,
+        "date_crawled": datetime.now().isoformat(),
+        "content_markdown": content.strip(),
+    }
 
 
 async def crawl_all() -> None:
     """Crawl và lưu từng bài thành một file JSON."""
     DATA_DIR.mkdir(parents=True, exist_ok=True)
 
+    if not ARTICLE_URLS:
+        print("No URLs configured. Set ARTICLE_URLS as a comma-separated environment variable.")
     for index, url in enumerate(ARTICLE_URLS, 1):
         try:
             article = await crawl_article(url)
