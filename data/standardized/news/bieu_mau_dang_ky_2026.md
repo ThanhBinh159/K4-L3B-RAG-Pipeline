@@ -1,0 +1,69 @@
+# Chi tiết 28 biểu mẫu ĐĂNG KÝ HỘ KINH DOANH
+
+**Source:** https://xaydungchinhsach.chinhphu.vn/bieu-mau-dang-ky-ho-kinh-doanh-11926091009173649.htm
+
+**Crawled:** 2026-09-25
+
+---
+
+Bộ Tài chính ban hành Văn bản hợp nhất số 28/2026/VBHN-TT-BTC ngày 28/8/2026: Thông tư ban hành biểu mẫu sử dụng trong đăng ký doanh nghiệp, đăng ký hộ kinh doanh.
+
+## 28 biểu mẫu sử dụng trong đăng ký hộ kinh doanh
+
+## Mẫu số 1: Gấy đề nghị đăng ký hộ kinh doanh
+
+## Mẫu số 2: Giấy đề nghị đăng ký thay đổi nội dung đăng ký hộ kinh doanh
+
+## Mẫu số 3: Giấy đề nghị đăng ký tạm ngừng kinh doanh/ tiếp tục kinh doanh trước thời hạn đã đăng ký của hộ kinh doanh
+
+## Mẫu số 4: Thông báo về việc chấm dứt hoạt động hộ kinh doanh
+
+## Mẫu số 5: Giấy đề nghị cấp lại Giấy chứng nhận đăng ký hộ kinh doanh
+
+## Mẫu số 6: Giấy đề nghị dừng thực hiện thủ tục đăng ký hộ kinh doanh
+
+## Mẫu số 7: Giấy chứng nhận đăng ký hộ kinh doanh
+
+## Mẫu số 8: Thông báo về cơ quan thuế quản lý trực tiếp hộ kinh doanh
+
+## Mẫu số 9: Giấy chứng nhận đăng ký hộ kinh doanh
+
+## Mẫu số 10: Thông báo về việc sửa đổi, bổ sung hồ sơ đăng ký hộ kinh doanh
+
+## Mẫu số 11: Thông báo yêu cầu hộ kinh doanh báo cáo về việc tuân thủ các quy định về hộ kinh doanh
+
+## Mẫu số 12: Thông báo về việc vi phạm của hộ kinh doanh thuộc trường hợp thu hồi Giấy chứng nhận đăng ký hộ kinh doanh
+
+## Mẫu số 13: Thông báo về việc chấm dứt hoạt động hộ kinh doanh
+
+## Mẫu số 14: Quyết định về việc thu hồi Giấy chứng nhận đăng ký hộ kinh doanh
+
+## Mẫu số 15: Quyết định về việc thu hồi Giấy chứng nhận đăng ký hộ kinh doanh của lần đăng ký thay đổi
+
+## Mẫu số 16: Quyết định về việc thu hồi và khôi phục Giấy chứng nhận đăng ký hộ kinh doanh
+
+## Mẫu số 17: Giấy tiếp nhận hồ sơ và hẹn trả kết quả hồ sơ đăng ký hộ kinh doanh
+
+## Mẫu số 18: Giấy tiếp nhận hồ sơ và hẹn trả kết quả hồ sơ đăng ký hộ kinh doanh qua mạng thông tin điện tử
+
+## Mẫu số 19: Thông báo yêu cầu hộ kinh doanh tạm ngừng kinh doanh ngành, nghề đầu tư kinh doanh có điều kiện
+
+## Mẫu số 20: Giấy xác nhận về việc hộ kinh doanh đăng ký tạm ngừng kinh doanh/ tiếp tục kinh doanh trước thời hạn đã đăng ký
+
+## Mẫu số 21: Thông báo về việc Giấy chứng nhận hộ kinh doanh không có hiệu lực
+
+## Mẫu số 22: Thông báo yêu cầu hộ kinh doanh đăng ký thay đổi thành viên không được quyền thành lập hộ kinh doanh
+
+## Mẫu số 23: Thông báo về việc xử lý hồ sơ đăng ký hộ kinh doanh hoặc ra thông báo, quyết định khong đúng quy định về hồ sơ, trình tự, thủ tục
+
+## Mẫu số 24: Thông báo về việc khôi phục Giấy chứng nhận đăng ký hộ kinh doanh
+
+## Mẫu số 25: Thông báo về việc hiệu đính trên giấy chứng nhận đăng ký hộ kinh doanh
+
+## Mẫu số 26: Thông báo về việc ngừng/ từ chối dừng thực hiện thủ tục đăng ký hộ kinh doanh
+
+## Mẫu số 27: Thông báo về việc hộ kinh doanh đang làm thủ tục chấm dứt hoạt động
+
+## Mẫu số 28: Thông báo về việc rà soát thông tin đăng ký hộ kinh doanh của hộ kinh doanh
+
+## Phụ lục III: Danh mục chữ cái và ký hiệu sử dụng trong đặt tên doanh nghiệp/ hộ kinh doanh/ đơn vị phụ thuộc của doanh nghiệp/ hộ kinh doanh
