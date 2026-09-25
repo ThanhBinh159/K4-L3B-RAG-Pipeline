@@ -67,6 +67,8 @@ generate_with_citation(query, top_k=5) -> GenerationResult
 - Search result không trùng ID, không vượt `top_k` và được sort theo score giảm dần.
 - RRF dùng công thức `sum(1 / (k + rank))`, rank bắt đầu từ 1 và chỉ fuse một lần.
 - Fallback so sánh threshold với cosine score gốc của dense search, không dùng RRF score.
+- Task 9 trả tối đa một SearchResult trên mỗi URL nguồn đã chuẩn hóa. Nếu nhiều chunk của cùng tài liệu được truy xuất, `content` chứa các đoạn đó nối với nhau; `id` và `chunk_index` nhận diện chunk xếp hạng cao nhất làm đại diện.
+- Với truy vấn nêu số Điều hoặc số Mẫu cụ thể, Task 9 chỉ giữ tài liệu có đúng anchor đó; ví dụ `Mẫu số 1` không khớp `Mẫu số 01`.
 - PageIndex/provider lỗi không được làm UI crash; pipeline trả hybrid result hoặc safe refusal.
 - Citation phải đối chiếu được với phần tử trong `sources`.
 - Không hard-code hoặc commit API key.

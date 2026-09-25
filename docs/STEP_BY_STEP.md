@@ -1,7 +1,7 @@
 ## 1. Chọn đề tài
 
 - Chọn một chủ đề trong [danh sách gợi ý](SUGGESTED_TOPICS.md) hoặc chủ đề khác.
-- Phân công role, chia nhiệm vụ các thành viên
+- Phân công role cho ba thành viên; dùng các khung riêng trong `reports/individual/` để ghi lại phần việc, file/commit và bằng chứng thực tế.
 - Mỗi thành viên ghi lại commit mình phụ trách để hoàn thiện individual report
 
 ## 2. Cài môi trường
@@ -101,6 +101,6 @@ pytest tests/test_acceptance.py -q
 pytest -q
 ```
 
-- Mỗi thành viên hoàn thiện individual report.
+- Mỗi thành viên hoàn thiện báo cáo riêng trong `reports/individual/`; không ghi công việc thay mặt thành viên khác và dẫn file/commit/test làm bằng chứng.
 - Kiểm tra repository không chứa `.env`, API key hoặc file cache.
 - Demo một query đúng, một query ngoài domain và kết quả A/B.
