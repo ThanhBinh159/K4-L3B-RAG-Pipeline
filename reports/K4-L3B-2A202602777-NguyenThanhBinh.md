@@ -42,5 +42,5 @@
 
 Tôi xác nhận nội dung trên phản ánh phần việc có thể kiểm tra lại bằng source code, test và kết quả pipeline.
 
-- Ngày: 2026-09-25
+- Ngày: 25/09/2026
 - Tên thành viên: Nguyễn Thanh Bình
