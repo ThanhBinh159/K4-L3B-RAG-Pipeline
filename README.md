@@ -1,5 +1,17 @@
 # Day 8 — RAG Pipeline
 
+## Đề tài nhóm: pháp luật cho hộ kinh doanh
+
+Corpus hiện có 6 luật (54 điều được chọn) từ [Vietnam laws IR](https://huggingface.co/datasets/justicedao/ipfs_vietnam_laws_ir), 5 PDF gốc từ Công báo và 6 bài hướng dẫn từ Cổng Thông tin Chính phủ. Dữ liệu đã chuẩn hóa nằm trong `data/standardized/legal/` và `data/standardized/news/`; `src.task4_chunking_indexing.load_documents()` đọc được cả hai loại và giữ URL nguồn để trích dẫn.
+
+Tái tạo phần văn bản luật đã lọc từ revision cố định của dataset:
+
+```bash
+python -m src.prepare_household_business_corpus --download
+```
+
+Xem [phạm vi và nguồn dữ liệu](docs/HKD_CORPUS.md) trước khi xây golden dataset. Các điều trong corpus là bản chụp phục vụ nghiên cứu; cần đối chiếu hiệu lực và văn bản hướng dẫn mới tại nguồn chính thức trước khi đưa ra kết luận pháp lý.
+
 ## Mục tiêu
 
 Mỗi nhóm xây dựng một chatbot RAG trả lời câu hỏi từ bộ tài liệu do nhóm thu thập. Sản phẩm phải có hybrid retrieval, citation, giao diện chat và báo cáo đánh giá.
@@ -14,7 +26,7 @@ Nhóm tự chọn bài toán và thu thập dữ liệu phù hợp; repo không 
 - Chatbot Streamlit hiển thị câu trả lời và nguồn đã dùng.
 - Golden dataset tối thiểu 15 câu; đánh giá 4 metric và so sánh A/B.
 - `group_project/evaluation/RESULT.md`.
-- Mỗi thành viên nộp báo cáo cá nhân theo template trong `group_project/ịndividual/INDIVIDUAL_REPORT.md`.
+- [Báo cáo đóng góp cá nhân](reports/INDIVIDUAL_REPORT.md) hiện là một báo cáo mẫu cho một thành viên; cập nhật nội dung để khớp đóng góp thực tế rồi điền tên và mã học viên.
 
 ## Quick start
 
@@ -29,6 +41,27 @@ cp .env.example .env
 
 Điền API key cần dùng trong `.env`; không commit file này.
 
+Mẫu `.env.example` dùng embedding Ollama `bge-m3:latest` và generation trích xuất. Khởi động Ollama, tải model và tạo chỉ mục:
+
+```bash
+ollama pull bge-m3
+ollama serve
+python -m src.task4_chunking_indexing
+```
+
+Trên Windows, nếu `ollama` chưa có trong PATH, dùng `& "$env:LOCALAPPDATA\Programs\Ollama\ollama.exe" serve`. Nếu ứng dụng Ollama đã chạy thì không cần mở thêm server. `bge-m3` được gọi qua `/api/embed` ở `OLLAMA_BASE_URL`. Sau khi đổi embedding provider hoặc model, chạy lại lệnh index; mỗi cấu hình dùng một collection Chroma riêng. Có thể dùng `EMBEDDING_PROVIDER=local_lsa` để chạy hoàn toàn offline mà không cần Ollama, hoặc `EMBEDDING_PROVIDER=openrouter` với `EMBEDDING_MODEL=nvidia/llama-nemotron-embed-vl-1b-v2:free` và `OPENROUTER_API_KEY`.
+
+Để sinh câu trả lời qua gateway tương thích Gemini, cấu hình thêm trong `.env`:
+
+```dotenv
+LLM_PROVIDER=gemini
+LLM_MODEL=gemini-3.1-flash-lite
+GEMINI_BASE_URL=http://localhost:8317
+GEMINI_API_KEY=your_gateway_key_here
+```
+
+Ứng dụng gọi Gemini SDK qua `GEMINI_BASE_URL`, sau đó chỉ giữ phần trích nguyên văn khớp với source được dẫn; nếu model không đáp ứng, ứng dụng dùng câu trả lời trích xuất từ corpus. Gateway và model phải đang hoạt động ở địa chỉ đã cấu hình.
+
 ```bash
 # 1. Thu thập và chuẩn hoá
 python -m src.task1_collect_legal_docs
@@ -42,6 +75,20 @@ pytest -q
 # 3. Chạy sản phẩm
 streamlit run app.py
 ```
+
+Đánh giá A/B trên 15 câu hỏi và ghi `group_project/evaluation/RESULT.md`:
+
+```bash
+python -m src.evaluate
+```
+
+`RESULT.md` là phép so sánh A/B trước đó với embedding OpenRouter và câu trả lời trích xuất offline. Để chạy toàn bộ golden dataset với Ollama và provider generation đang cấu hình trong `.env`:
+
+```bash
+python -m src.evaluate_online
+```
+
+Lệnh ghi checkpoint từng câu vào `group_project/evaluation/online_results.json` và tổng hợp ở `group_project/evaluation/RESULT_ONLINE.md`. Bốn metric đều là proxy so khớp văn bản/nhãn nguồn, chưa phải RAGAS hoặc đánh giá pháp lý bởi chuyên gia. PageIndex là fallback tùy chọn khi điền `PAGEINDEX_API_KEY` và upload PDF.
 
 ## Lộ trình 3 giờ
 
@@ -67,7 +114,7 @@ streamlit run app.py
 - [Module contracts](docs/MODULE_CONTRACTS.md): schema, interface và invariant mà code/test nên tuân theo.
 - [Step-by-step guide](docs/STEP_BY_STEP.md): thứ tự triển khai và tiêu chí hoàn thành từng bước.
 - [Grading rubric](docs/GRADING_RUBRIC.md): Rubric thang điểm.
-- [Individual report](group_project/ịndividual/INDIVIDUAL_REPORT.md): template báo cáo cá nhân.
+- [Individual report](reports/INDIVIDUAL_REPORT.md): báo cáo mẫu cho một thành viên, gồm kiểm thử, xử lý dữ liệu, quyết định kỹ thuật và hạn chế.
 - [Suggested topics](docs/SUGGESTED_TOPICS.md): danh sách chủ đề tham khảo, không bắt buộc.
 
 ## Kiểm tra

@@ -1,7 +1,7 @@
 ## 1. Chọn đề tài
 
 - Chọn một chủ đề trong [danh sách gợi ý](SUGGESTED_TOPICS.md) hoặc chủ đề khác.
-- Phân công role, chia nhiệm vụ các thành viên
+- Phân công ba mảng công việc: dữ liệu/corpus, indexing/retrieval, generation/UI/evaluation. Mỗi thành viên ghi bằng chứng vào phần riêng trong `reports/INDIVIDUAL_REPORT.md`.
 - Mỗi thành viên ghi lại commit mình phụ trách để hoàn thiện individual report
 
 ## 2. Cài môi trường
@@ -101,6 +101,6 @@ pytest tests/test_acceptance.py -q
 pytest -q
 ```
 
-- Mỗi thành viên hoàn thiện individual report.
+- Mỗi thành viên hoàn thiện phần của mình trong `reports/INDIVIDUAL_REPORT.md`; điền tên/mã học viên sau và chỉ khai báo việc có bằng chứng thực tế.
 - Kiểm tra repository không chứa `.env`, API key hoặc file cache.
 - Demo một query đúng, một query ngoài domain và kết quả A/B.

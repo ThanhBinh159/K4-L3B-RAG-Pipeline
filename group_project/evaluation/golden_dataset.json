@@ -1,0 +1,107 @@
+[
+  {
+    "question": "Theo Điều 11 Luật Quản lý thuế 108/2025/QH15, mã số thuế của hộ kinh doanh là gì?",
+    "expected_answer": "Mã số thuế của hộ kinh doanh là số định danh cá nhân của chủ hộ kinh doanh.",
+    "expected_context": "Mã số thuế của cá nhân, hộ gia đình, hộ kinh doanh, cá nhân kinh doanh là số định danh cá nhân của cá nhân, chủ hộ gia đình, chủ hộ kinh doanh, cá nhân kinh doanh được cấp theo quy định của pháp luật về căn cước. 2. Mã số thuế của doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã, tổ hợp tác, đơn vị phụ thuộc, tổ chức khác quy định tại khoản 2 Điều 10 của Luật này là CÔNG BÁO/Số 38/Ngày 22-01-2026 88 mã số của doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã, tổ hợp tác, đơn vị phụ thuộc, tổ chức khá",
+    "source_url": "https://congbao.chinhphu.vn/van-ban/luat-so-108-2025-qh15-468670/61635.htm",
+    "article": "Điều 11"
+  },
+  {
+    "question": "Khi thuộc đối tượng phải nộp thuế, hộ kinh doanh tự xác định khoản thuế nào theo Điều 13?",
+    "expected_answer": "Hộ kinh doanh tự xác định số thuế giá trị gia tăng và thuế thu nhập cá nhân phải nộp theo pháp luật về hai loại thuế đó.",
+    "expected_context": "Trường hợp hộ kinh doanh, cá nhân kinh doanh xác định có mức doanh thu hằng năm từ hoạt động sản xuất, kinh doanh hàng hóa, dịch vụ thuộc đối tượng chịu thuế, đối tượng phải nộp thuế theo quy định của pháp luật về thuế, hộ kinh doanh, cá nhân kinh doanh tự xác định số thuế giá trị gia tăng, thuế thu nhập cá nhân phải nộp theo quy định của pháp luật về thuế giá trị gia tăng, thuế thu nhập cá nhân. Trường hợp hộ kinh doanh, cá nhân kinh doanh sử dụng hóa đơn điện tử, hoá đơn điện tử khởi tạo từ má",
+    "source_url": "https://congbao.chinhphu.vn/van-ban/luat-so-108-2025-qh15-468670/61635.htm",
+    "article": "Điều 13"
+  },
+  {
+    "question": "Điều 26 định nghĩa hóa đơn điện tử như thế nào?",
+    "expected_answer": "Hóa đơn điện tử là hóa đơn ở dạng dữ liệu điện tử do tổ chức, hộ kinh doanh hoặc cá nhân kinh doanh lập khi bán hàng hóa, cung cấp dịch vụ.",
+    "expected_context": "Hóa đơn điện tử là hóa đơn ở dạng dữ liệu điện tử do tổ chức, hộ kinh doanh, cá nhân kinh doanh bán hàng hóa, cung cấp dịch vụ lập để ghi nhận thông tin bán hàng hóa, cung cấp dịch vụ theo quy định của pháp luật về thuế và pháp luật về kế toán. 2. Hóa đơn điện tử gồm hóa đơn điện tử có mã của cơ quan thuế, hóa đơn điện tử không có mã của cơ quan thuế, hóa đơn điện tử khởi tạo từ máy tính tiền có kết nối dữ liệu với cơ quan thuế. 3. Đối tượng sử dụng hóa đơn điện tử: a) Người nộp thuế sử dụng hóa",
+    "source_url": "https://congbao.chinhphu.vn/van-ban/luat-so-108-2025-qh15-468670/61635.htm",
+    "article": "Điều 26"
+  },
+  {
+    "question": "Theo Điều 52, quy định tại Điều 13 về hộ kinh doanh có hiệu lực từ ngày nào?",
+    "expected_answer": "Quy định tại Điều 13 có hiệu lực từ ngày 01/01/2026.",
+    "expected_context": "Quy định tại Điều 13 và việc sử dụng hóa đơn điện tử của hộ kinh doanh, cá nhân kinh doanh quy định tại Điều 26 của Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026. 3. Luật Quản lý thuế số 38/2019/QH14 đã được sửa đổi, bổ sung một số điều theo Luật số 56/2024/QH15 (sau đây gọi là Luật Quản lý thuế số 38/2019/QH14) hết hiệu lực thi hành kể từ ngày Luật này có hiệu lực thi hành, trừ quy định tại khoản 1 và khoản 3 Điều 53 của Luật này; riêng quy định tại Điều 51 của Luật Quản lý thuế số",
+    "source_url": "https://congbao.chinhphu.vn/van-ban/luat-so-108-2025-qh15-468670/61635.htm",
+    "article": "Điều 52"
+  },
+  {
+    "question": "Theo Điều 7 Luật Thuế thu nhập cá nhân 109/2025/QH15, cá nhân cư trú kinh doanh có doanh thu năm từ 500 triệu đồng trở xuống có phải nộp thuế TNCN không?",
+    "expected_answer": "Không phải nộp thuế thu nhập cá nhân theo khoản 1 Điều 7.",
+    "expected_context": "Cá nhân cư trú có hoạt động sản xuất, kinh doanh có mức doanh thu năm từ 500 triệu đồng trở xuống không phải nộp thuế thu nhập cá nhân. Chính phủ trình Ủy ban Thường vụ Quốc hội điều chỉnh mức doanh thu không phải nộp thuế thu nhập cá nhân phù hợp với tình hình kinh tế - xã hội trong từng thời kỳ. CÔNG BÁO/Số 37/Ngày 22-01-2026 36 2. Thuế thu nhập cá nhân đối với thu nhập từ kinh doanh của cá nhân cư trú có doanh thu năm trên mức quy định tại khoản 1 Điều này được xác định bằng thu nhập tính thu",
+    "source_url": "https://congbao.chinhphu.vn/van-ban/luat-so-109-2025-qh15-468671/61623.htm",
+    "article": "Điều 7"
+  },
+  {
+    "question": "Điều 7 xác định thuế TNCN đối với thu nhập từ kinh doanh trên ngưỡng doanh thu bằng cách nào?",
+    "expected_answer": "Thuế được xác định bằng thu nhập tính thuế nhân với thuế suất.",
+    "expected_context": "được xác định bằng thu nhập tính thuế nhân (x) với thuế suất. Trong đó: a) Thu nhập tính thuế được xác định bằng doanh thu của hàng hóa, dịch vụ bán ra trừ (-) đi chi phí liên quan đến hoạt động sản xuất, kinh doanh trong kỳ tính thuế; b) Cá nhân kinh doanh có doanh thu năm trên mức quy định tại khoản 1 Điều này đến 03 tỷ đồng: thuế suất 15%; c) Cá nhân kinh doanh có doanh thu năm trên 03 tỷ đồng đến 50 tỷ đồng: thuế suất 17%; d) Cá nhân kinh doanh có doanh thu năm trên 50 tỷ đồng: thuế suất 20%",
+    "source_url": "https://congbao.chinhphu.vn/van-ban/luat-so-109-2025-qh15-468671/61623.htm",
+    "article": "Điều 7"
+  },
+  {
+    "question": "Điều 4 Luật Thuế GTGT 48/2024/QH15 có bao gồm hộ sản xuất, kinh doanh hàng hóa chịu thuế trong người nộp thuế không?",
+    "expected_answer": "Có. Điều 4 liệt kê tổ chức, hộ và cá nhân sản xuất, kinh doanh hàng hóa, dịch vụ chịu thuế GTGT.",
+    "expected_context": "Tổ chức, hộ, cá nhân sản xuất, kinh doanh hàng hóa, dịch vụ chịu thuế giá trị gia tăng (sau đây gọi là cơ sở kinh doanh). 2. Tổ chức, cá nhân nhập khẩu hàng hóa chịu thuế giá trị gia tăng (sau đây gọi là người nhập khẩu). 3. Tổ chức, cá nhân sản xuất, kinh doanh tại Việt Nam mua dịch vụ (kể cả trường hợp mua dịch vụ gắn với hàng hóa) của tổ chức nước ngoài không có cơ sở thường trú tại Việt Nam, cá nhân ở nước ngoài là đối tượng không cư trú tại Việt Nam, trừ trường hợp quy định tại khoản 4 và k",
+    "source_url": "https://congbao.chinhphu.vn/van-ban/luat-so-48-2024-qh15-43576.htm",
+    "article": "Điều 4"
+  },
+  {
+    "question": "Theo Điều 12, thuế GTGT theo phương pháp trực tiếp trên doanh thu được tính thế nào?",
+    "expected_answer": "Số thuế GTGT phải nộp bằng tỷ lệ phần trăm nhân với doanh thu.",
+    "expected_context": "Số thuế giá trị gia tăng phải nộp theo phương pháp tính trực tiếp theo doanh thu bằng tỷ lệ % nhân với doanh thu áp dụng như sau: a) Đối tượng áp dụng bao gồm: a1) Doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã có doanh thu hằng năm dưới mức ngưỡng doanh thu 01 tỷ đồng, trừ trường hợp tự nguyện áp dụng phương pháp khấu trừ thuế quy định tại khoản 2 Điều 11 của Luật này; a2) Hộ, cá nhân sản xuất, kinh doanh, trừ trường hợp quy định tại khoản 3 Điều này; a3) Tổ chức nước ngoài không có cơ sở thườn",
+    "source_url": "https://congbao.chinhphu.vn/van-ban/luat-so-48-2024-qh15-43576.htm",
+    "article": "Điều 12"
+  },
+  {
+    "question": "Hộ kinh doanh cần hoạt động liên tục bao lâu để doanh nghiệp chuyển đổi được hỗ trợ theo Điều 16?",
+    "expected_answer": "Hộ kinh doanh phải hoạt động sản xuất, kinh doanh liên tục ít nhất 01 năm tính đến ngày được cấp Giấy chứng nhận đăng ký doanh nghiệp lần đầu.",
+    "expected_context": "Hộ kinh doanh có hoạt động sản xuất, kinh doanh liên tục ít nhất là 01 năm tính đến ngày được cấp Giấy chứng nhận đăng ký doanh nghiệp lần đầu. 2. Nội dung hỗ trợ bao gồm: a) Tư vấn, hướng dẫn miễn phí về hồ sơ, thủ tục thành lập doanh nghiệp; b) Miễn lệ phí đăng ký doanh nghiệp và phí cung cấp thông tin doanh nghiệp lần đầu; miễn phí thẩm định, phí, lệ phí cấp phép kinh doanh lần đầu đối với ngành, nghề kinh doanh có điều kiện; miễn lệ phí môn bài trong thời hạn 03 năm kể từ ngày được cấp Giấy",
+    "source_url": "https://congbao.chinhphu.vn/van-ban/luat-so-04-2017-qh14-24225/18418.htm",
+    "article": "Điều 16"
+  },
+  {
+    "question": "Theo Điều 21, bên kinh doanh cần cung cấp những thông tin cơ bản nào về sản phẩm cho người tiêu dùng?",
+    "expected_answer": "Cần cung cấp thông tin chính xác, đầy đủ như số lượng, chất lượng, công dụng, giá, xuất xứ và thời hạn sử dụng của sản phẩm, hàng hóa, dịch vụ.",
+    "expected_context": "Cung cấp thông tin chính xác, đầy đủ về các nội dung sau đây: a) Sản phẩm, hàng hóa, dịch vụ, bao gồm: đo lường, số lượng, khối lượng, chất lượng, công dụng, giá, xuất xứ hàng hóa, thời hạn sử dụng, phí, chi phí, phương thức, thời hạn giao hàng, phương thức vận chuyển, thanh toán; b) Tổ chức, cá nhân kinh doanh; c) Nhận xét, đánh giá của người tiêu dùng về sản phẩm, hàng hóa, dịch vụ, tổ chức, cá nhân kinh doanh (nếu có); 2. Thực hiện ghi nhãn hàng hóa bảo đảm trung thực, rõ ràng, chính xác, phả",
+    "source_url": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=161263",
+    "article": "Điều 21"
+  },
+  {
+    "question": "Theo Điều 31, bên kinh doanh phải thông báo việc tiếp nhận khiếu nại của người tiêu dùng trong bao lâu?",
+    "expected_answer": "Trong 03 ngày làm việc kể từ ngày nhận được phản ánh, yêu cầu hoặc khiếu nại.",
+    "expected_context": "thông báo cho người tiêu dùng về việc tiếp nhận phản ánh, yêu cầu, khiếu nại của người tiêu dùng trong thời hạn 03 ngày làm việc kể từ ngày nhận được phản ánh, yêu cầu, khiếu nại đó. 3. Tổ chức, cá nhân sản xuất, nhập khẩu sản phẩm, hàng hóa hoặc trực tiếp bán, cung cấp sản phẩm, hàng hóa, dịch vụ cho người tiêu dùng có trách nhiệm xây dựng, công khai quy trình tiếp nhận và giải quyết phản ánh, yêu cầu, khiếu nại của người tiêu dùng theo hình thức niêm yết ở vị trí dễ nhìn thấy tại trụ sở, địa đ",
+    "source_url": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=161263",
+    "article": "Điều 31"
+  },
+  {
+    "question": "Theo Điều 34 Luật An toàn thực phẩm, cơ sở kinh doanh thực phẩm cần điều kiện gì để được cấp giấy chứng nhận đủ điều kiện?",
+    "expected_answer": "Cơ sở cần đáp ứng điều kiện bảo đảm an toàn thực phẩm phù hợp với loại hình kinh doanh và có đăng ký ngành, nghề kinh doanh thực phẩm.",
+    "expected_context": "Cơ sở được cấp Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm khi có đủ các điều kiện sau đây: a) Có đủ điều kiện bảo đảm an toàn thực phẩm phù hợp với từng loại hình sản xuất, kinh doanh thực phẩm theo quy định tại Chương IV của Luật này; b) Có đăng ký ngành, nghề kinh doanh thực phẩm trong Giấy chứng nhận đăng ký kinh doanh. 2. Tổ chức, cá nhân bị thu hồi Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm khi không đủ điều kiện quy định tại khoản 1 Điều này. 3. Chính phủ quy định cụ th",
+    "source_url": "https://congbao.chinhphu.vn/van-ban/luat-so-55-2010-qh12-562/1214.htm",
+    "article": "Điều 34"
+  },
+  {
+    "question": "Theo bài hướng dẫn, nộp hồ sơ đăng ký thành lập hộ kinh doanh ở đâu?",
+    "expected_answer": "Nộp cho Cơ quan đăng ký kinh doanh cấp xã nơi hộ kinh doanh đăng ký trụ sở.",
+    "expected_context": "gửi hồ sơ đăng ký thành lập hộ kinh doanh đến Cơ quan đăng ký kinh doanh cấp xã nơi hộ kinh doanh đăng ký trụ sở.\n\n## Hồ sơ đăng ký hộ kinh doanh bao gồm:\n\n+ Giấy đề nghị đăng ký hộ kinh doanh.\n\n+ Bản sao văn bản ủy quyền của thành viên hộ gia đình cho một thành viên làm chủ hộ kinh doanh đối với trường hợp hộ kinh doanh do các thành viên hộ gia đì",
+    "source_url": "https://xaydungchinhsach.chinhphu.vn/quy-dinh-ho-so-trinh-tu-thu-tuc-dang-ky-thanh-lap-ho-kinh-doanh-119250702172916754.htm",
+    "article": null
+  },
+  {
+    "question": "Theo hướng dẫn năm 2026, hộ kinh doanh dưới ngưỡng doanh thu 500 triệu đồng dùng mẫu sổ nào?",
+    "expected_answer": "Sử dụng Sổ doanh thu bán hàng hóa, dịch vụ, mẫu S1a-HKD.",
+    "expected_context": "Sổ kế toán : Sổ doanh thu bán hàng hóa, dịch vụ (mẫu số S1a-HKD).\n\nMục đích sổ kế toán:\n\n- Làm căn cứ kê khai, xác định hộ kinh doanh, cá nhân kinh doanh có thuộc đối tượng chịu thuế GTGT, nộp thuế TNCN theo quy định của pháp luật về thuế hay không.\n\n- Theo dõi, đối chiếu số liệu với cơ quan thuế.\n\nChứng từ kế toán: Không.\n\nHình thức lưu trữ: Điện",
+    "source_url": "https://xaydungchinhsach.chinhphu.vn/chinh-sach-thue-voi-ho-kinh-doanh-co-doanh-nam-thu-duoi-500-trieu-dong-119260401110929512.htm",
+    "article": null
+  },
+  {
+    "question": "Theo danh sách biểu mẫu năm 2026, mẫu số 1 dùng để làm gì?",
+    "expected_answer": "Mẫu số 1 là Giấy đề nghị đăng ký hộ kinh doanh.",
+    "expected_context": "Mẫu số 1: Gấy đề nghị đăng ký hộ kinh doanh\n\n## Mẫu số 2: Giấy đề nghị đăng ký thay đổi nội dung đăng ký hộ kinh doanh\n\n## Mẫu số 3: Giấy đề nghị đăng ký tạm ngừng kinh doanh/ tiếp tục kinh doanh trước thời hạn đã đăng ký của hộ kinh doanh\n\n## Mẫu số 4: Thông báo về việc chấm dứt hoạt động hộ kinh doanh\n\n## Mẫu số 5: Giấy đề nghị cấp lại Giấy chứng",
+    "source_url": "https://xaydungchinhsach.chinhphu.vn/bieu-mau-dang-ky-ho-kinh-doanh-11926091009173649.htm",
+    "article": null
+  }
+]

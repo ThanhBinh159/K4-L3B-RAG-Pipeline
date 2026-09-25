@@ -1,0 +1,181 @@
+{
+  "dataset": "justicedao/ipfs_vietnam_laws_ir",
+  "dataset_revision": "89013dcc37dea35d0d858b2f07517bf425f76729",
+  "source_rows": 41042,
+  "documents": [
+    {
+      "file": "hkd_quan_ly_thue_108_2025.md",
+      "instrument_id": "vn-61635",
+      "title": "Luật Quản lý thuế 108/2025/QH15",
+      "source_url": "https://congbao.chinhphu.vn/van-ban/luat-so-108-2025-qh15-468670/61635.htm",
+      "snapshot_date": "2026-09-08",
+      "articles": [
+        "Điều 2",
+        "Điều 4",
+        "Điều 10",
+        "Điều 11",
+        "Điều 13",
+        "Điều 17",
+        "Điều 20",
+        "Điều 21",
+        "Điều 26",
+        "Điều 52"
+      ],
+      "entry_cids": [
+        "bafkreif2tlamuzi7wqvfbzofocwxswuweni6jeki4dekdlu6lrktwqn7hi",
+        "bafkreicgzgtwlqcsvps7y5if3so2l6jwhv6htmhp5ctnfy4yzrzfcknuu4",
+        "bafkreib2uujr5e2yotk4sjh3lih4w6xchbaa4xzebqmjxlg6it45zen25m",
+        "bafkreict27ou5pfspealz66iff55i52whpkbkaexjhuwkc4gqnzifvsr6q",
+        "bafkreihxkd75f7zr25f6477kk7yfr2mbowbz56xmjd22axp73oiox6sgme",
+        "bafkreigusgdncpj22la2ghey7afyqgvggazyvtclxzmo73afdhclocevwu",
+        "bafkreiasp5ujxojwwxwgdh4m743l2t4bwlejypn67k64hcjpeqtn32mbaq",
+        "bafkreiecqq367vqknu2ik6yha24ttwu6sgcqzsnxtc5k7udyp72lprbg34",
+        "bafkreieubq6xz7lmco6oc54aj2yt4y34w5vin2vteid5pybzjpmkp6pale",
+        "bafkreie2n23ochqk2uad7ickked7flezrgychdyksfrwahdvjq5oevvnza"
+      ]
+    },
+    {
+      "file": "hkd_thue_thu_nhap_ca_nhan_109_2025.md",
+      "instrument_id": "vn-61623",
+      "title": "Luật Thuế thu nhập cá nhân 109/2025/QH15",
+      "source_url": "https://congbao.chinhphu.vn/van-ban/luat-so-109-2025-qh15-468671/61623.htm",
+      "snapshot_date": "2026-09-08",
+      "articles": [
+        "Điều 2",
+        "Điều 3",
+        "Điều 6",
+        "Điều 7",
+        "Điều 20",
+        "Điều 29"
+      ],
+      "entry_cids": [
+        "bafkreiae5oojjvre7g57mitxiuaxvllq74bllrv2r4q42wpcjeffzaqmje",
+        "bafkreigl4uywlwsysbvny3xr44rlct6yvz5cutev35pajcghzyq4sjsjni",
+        "bafkreicau5wennm73uwljxenw7yb5argbzg7bcojty3cpaeocgr3vgj26y",
+        "bafkreidiw2tihvjbtzyewmwo4bwgkahfp45f6vr7jaszp4nsewhuhcbe74",
+        "bafkreiaq3cw3ycgex6uckk3obkgblocrawcoznhanzti6t6jnt54bkri6y",
+        "bafkreic2qkxmc7ii55rxs45yzrgib3tygedporz2i737d3big7tlzzrqae"
+      ]
+    },
+    {
+      "file": "hkd_thue_gia_tri_gia_tang_48_2024.md",
+      "instrument_id": "vn-luat-so-48-2024-qh15-43576",
+      "title": "Luật Thuế giá trị gia tăng 48/2024/QH15",
+      "source_url": "https://congbao.chinhphu.vn/van-ban/luat-so-48-2024-qh15-43576.htm",
+      "snapshot_date": "2026-09-08",
+      "articles": [
+        "Điều 2",
+        "Điều 4",
+        "Điều 6",
+        "Điều 7",
+        "Điều 8",
+        "Điều 9",
+        "Điều 10",
+        "Điều 12",
+        "Điều 16",
+        "Điều 18"
+      ],
+      "entry_cids": [
+        "bafkreig7w4iaxab3h4mmqsui5442hph3xgexezgo6kszjezv22gpzobnpu",
+        "bafkreibwqbfob2pntnkyxxoityr25tf6blbmso3dvhxhrl2bxdbmqircfy",
+        "bafkreihby2kdfh5sr2vcfat32ugf2thzbrhl5rommrricmnnfu5akuotv4",
+        "bafkreiadq4jg5jvmqosezjsmhumdbx4wc5pr45l5cyfywedrh2qfrjpvby",
+        "bafkreihgc53lc3olfyfefpgg4airleshxzch732f2o7yndnq67lpyklgma",
+        "bafkreiarisykh2fasihw6xxnckdov4y2qcedkexverqqbl3q3tazkserfm",
+        "bafkreiayzeu6whi6t774vxfrwe2hs6wkoyxoxnl44ubzqogf3nxceboyju",
+        "bafkreieqj2pxcxsm4uczilq6ogcdi4tzkuiij5ijw6rongmeprs6hlb6bm",
+        "bafkreih3bhwub5i2cpasntto6qifvxbj3gsfauwwqngoly5fyqf5xy3sma",
+        "bafkreichlwrfjq62es2onq3dy2pu4ez3ehynoklbkk277y4qcp7xjd2htq"
+      ]
+    },
+    {
+      "file": "hkd_ho_tro_doanh_nghiep_nho_va_vua_04_2017.md",
+      "instrument_id": "vn-18418",
+      "title": "Luật Hỗ trợ doanh nghiệp nhỏ và vừa 04/2017/QH14",
+      "source_url": "https://congbao.chinhphu.vn/van-ban/luat-so-04-2017-qh14-24225/18418.htm",
+      "snapshot_date": "2026-09-08",
+      "articles": [
+        "Điều 4",
+        "Điều 10",
+        "Điều 14",
+        "Điều 16",
+        "Điều 34"
+      ],
+      "entry_cids": [
+        "bafkreihplnwfji4okm24iwjmspcngse2vrrlg2ovzh2dvpcl5tyibndcgq",
+        "bafkreidodbfzovyygxo7a3p6kwrl7iuusipdpbqladgj2jjfeiaujvceou",
+        "bafkreifrull5lwkyhnint7zk4qmhkc4oeil4hfewrxqvlvv7gebme43a4q",
+        "bafkreiceru7l7qng5ldm6p7cyuhfl4dzocyipp3fkbyqbxcwdjamulihcq",
+        "bafkreig35tk5xqcu4vs53a57ekwirt5lfvifnj54x3lqbmcfwedpsfiz2u"
+      ]
+    },
+    {
+      "file": "hkd_bao_ve_nguoi_tieu_dung_19_2023.md",
+      "instrument_id": "vn-luat-bao-ve-quyen-loi-nguoi-tieu-dung-so-19-2023-qh15",
+      "title": "Luật Bảo vệ quyền lợi người tiêu dùng 19/2023/QH15",
+      "source_url": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=161263",
+      "snapshot_date": "2026-09-03",
+      "articles": [
+        "Điều 3",
+        "Điều 9",
+        "Điều 10",
+        "Điều 14",
+        "Điều 21",
+        "Điều 29",
+        "Điều 30",
+        "Điều 31",
+        "Điều 37",
+        "Điều 39",
+        "Điều 54",
+        "Điều 79"
+      ],
+      "entry_cids": [
+        "bafkreig2hfjhaxtgoevmpm37aalsapyalh3dsa7mapfiske5fdy6cdt6hm",
+        "bafkreihklby5tmugmetmcoioooywknylxrmqo24cu72vvfj76476r3j4oy",
+        "bafkreih5pjj4mf53plfsrqsixwv52rfe3u53ede5hejlrpmd7aawemd2y4",
+        "bafkreidoqflprhwh72xuapxetyxlhk7muvuoqisap725tb5enn5w464f34",
+        "bafkreiceb5ahkhh4oib3ka4leiuh3y6knk5do2wfxd3hvy6tc7pmsbtdmm",
+        "bafkreial576owpe6ou6ts5igox55aar36sl2vctjiaumdbdghqlonnlf5y",
+        "bafkreiad4i3kop4kitnn2km27nquca4tsoxvdfmj7cg4unnrxahaoxpelq",
+        "bafkreiblqxqcfjq4sel7sr2zx6iqf5se3ln3bqcgzlchfns735amv37v2i",
+        "bafkreihkmtaezn7kczn3ccccvpoex56lmmgoanyumps5a5whob7olqts4i",
+        "bafkreihe3mbfsnrujfy4hjcmutizkpcvfurugpvh5usgtchmgp6fgkfrky",
+        "bafkreig3qtn7xopgymyqqx2r7kw5vzghdj6ihsj642noq72vkaxh3f7enq",
+        "bafkreiakkhrbejot55dm5ykazfnbhutaaawuql6zafff2iepfjdijvxtjm"
+      ]
+    },
+    {
+      "file": "hkd_an_toan_thuc_pham_55_2010.md",
+      "instrument_id": "vn-1214",
+      "title": "Luật An toàn thực phẩm 55/2010/QH12",
+      "source_url": "https://congbao.chinhphu.vn/van-ban/luat-so-55-2010-qh12-562/1214.htm",
+      "snapshot_date": "2026-09-08",
+      "articles": [
+        "Điều 7",
+        "Điều 8",
+        "Điều 19",
+        "Điều 24",
+        "Điều 27",
+        "Điều 28",
+        "Điều 29",
+        "Điều 31",
+        "Điều 34",
+        "Điều 36",
+        "Điều 71"
+      ],
+      "entry_cids": [
+        "bafkreiaamk5wctue5gcpf6wezt3dqsnur2cflsyeqt26t3s6d6u3a6qygy",
+        "bafkreifok3nqf5hckkjqz2fxog4reybqy3opc3qurud7skyyxrrtsc5apm",
+        "bafkreid4rvm3rdm37hqmqzh3pdvvookxcyxwzysitzyxgx43wmelevujte",
+        "bafkreiarfqvkm32bwdvswp5vrbr75bkelyg4xq2u6cxohj5ajijjfsxbv4",
+        "bafkreieu3frrnpsup5zwefitnkhc47v246m3vjbnf5fitng36zyikhss7u",
+        "bafkreihd7h4zfbb7xlxjbqqbpfk7cericrwkh3v2rhtqmukqoa4jqi3yby",
+        "bafkreifqgmqx7y6ep6xkh7o25qh2unz6npzkz6oppzi6y26ipjn74jtqfi",
+        "bafkreifmb65kekqu2q54vcueg3c44xcvls3y7pwir2etdwmdpcf2vceegq",
+        "bafkreihnbziq7nhf55gg6fyp4btmdjgmrbc36ebkpy2r5j7uynvcjchrqy",
+        "bafkreigvvyw3icuqvoafap2zko5lzpfirakkuumi6idiq43m46c4bufnhq",
+        "bafkreihetoajltjrty765p5cjnekhjgfggdxk3c4umwywij3emi5bu5inm"
+      ]
+    }
+  ]
+}
